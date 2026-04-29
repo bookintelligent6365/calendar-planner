@@ -1,0 +1,84 @@
+name: Send LINE OA Notification
+
+on:
+  push:
+    paths:
+      - 'briefs/**'
+  workflow_dispatch:
+    inputs:
+      brief_file:
+        description: 'Brief file path (e.g. briefs/2026-04-29.txt)'
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  send-line:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Find latest brief file
+        id: find_brief
+        run: |
+          if [ -n "${{ github.event.inputs.brief_file }}" ]; then
+            BRIEF_FILE="${{ github.event.inputs.brief_file }}"
+          else
+            # Get the most recently changed file in briefs/ from this push
+            BRIEF_FILE=$(git diff --name-only HEAD~1 HEAD -- 'briefs/' | head -1)
+          fi
+
+          if [ -z "$BRIEF_FILE" ] || [ ! -f "$BRIEF_FILE" ]; then
+            echo "No brief file found"
+            echo "skip=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          echo "Found brief: $BRIEF_FILE"
+          echo "brief_file=$BRIEF_FILE" >> $GITHUB_OUTPUT
+          echo "skip=false" >> $GITHUB_OUTPUT
+
+      - name: Send to LINE OA
+        if: steps.find_brief.outputs.skip != 'true'
+        env:
+          LINE_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+          BRIEF_FILE: ${{ steps.find_brief.outputs.brief_file }}
+        run: |
+          # Read brief content and JSON-escape it
+          MESSAGE=$(cat "$BRIEF_FILE" | python3 -c "import sys, json; print(json.dumps(sys.stdin.read()))")
+
+          # Build payload
+          PAYLOAD=$(cat <<EOF
+          {
+            "to": "$LINE_USER_ID",
+            "messages": [
+              {"type": "text", "text": $MESSAGE}
+            ]
+          }
+          EOF
+          )
+
+          # Send to LINE
+          HTTP_CODE=$(curl -s -o /tmp/line_response.json -w "%{http_code}" \
+            -X POST https://api.line.me/v2/bot/message/push \
+            -H "Authorization: Bearer $LINE_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD")
+
+          echo "HTTP Status: $HTTP_CODE"
+          cat /tmp/line_response.json
+          echo ""
+
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "::error::LINE API returned $HTTP_CODE"
+            exit 1
+          fi
+
+          echo "LINE notification sent successfully"
