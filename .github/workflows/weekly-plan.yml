@@ -1,0 +1,43 @@
+name: Johny Weekly Planning
+
+on:
+  schedule:
+    # วันเสาร์ 08:00 Asia/Bangkok = 01:00 UTC วันเสาร์
+    - cron: '0 1 * * 6'
+  workflow_dispatch:
+
+jobs:
+  weekly-plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup git identity
+        run: |
+          git config user.name "Johny"
+          git config user.email "johny-bot@users.noreply.github.com"
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run Johny Weekly Planning
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+        run: |
+          claude --allowedTools "Bash,mcp__fcd84069-fb7a-414a-96d9-693d6c7eecf4__list_events,mcp__fcd84069-fb7a-414a-96d9-693d6c7eecf4__create_event,mcp__0d253133-1396-44b2-aad2-f0e39d5fd171__notion-fetch,WebFetch" \
+            -p "$(cat weekly_plan.md)" \
+            --max-turns 30 \
+            2>&1 | tee /tmp/johny-weekly.log || echo "[ERROR] Weekly plan run failed"
+
+      - name: Push weekly plan if any
+        run: |
+          git add articles/ || true
+          git diff --staged --quiet || git commit -m "brief: [JOHNY] weekly-$(TZ='Asia/Bangkok' date +%Y-%m-%d)"
+          git push || true
