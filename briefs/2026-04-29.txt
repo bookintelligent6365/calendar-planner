@@ -5,7 +5,7 @@
 22:00 - Test (สิ้นสุด 22:30)
 
 🎬 แผน Digital Asset วันนี้ (จาก Notion)
-• เช้า 06:00-07:30: วางโครงสร้าง Outline และเตรียมสูตรที่จำเป็นสำหรับ Google Sheet Dashboard
+• เช้า 06:00-07:30: วางโครงสร้าง Outline และเตรียมสูตรที่จำเป็นสำหรับ Course Google Sheet Dashboard
 • คืน 21:00-23:00: ลงมือทำ Dashboard รายรับ-รายจ่าย + Filter ใน Google Sheets (EP.1)
 
 💪 พลังบวกประจำวัน
