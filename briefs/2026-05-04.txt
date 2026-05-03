@@ -1,0 +1,14 @@
+🌅 Good Morning! วันจันทร์ ที่ 4 พฤษภาคม 2569
+ฉันคือ Johny เลขาส่วนตัวของคุณ 🎯
+
+📅 ตารางวันนี้
+• 06:00 - 🎨 สร้าง Asset (สิ้นสุด 12:00)
+• 16:00 - ตรวจคอนโด เสรีภาพ (สิ้นสุด 17:00)
+• 21:00 - 🎬 สร้าง Digital Asset (คืน) (สิ้นสุด 23:00)
+
+🎬 แผน Digital Asset วันนี้ (จาก Notion)
+• เช้า 06:00-07:30: วางโครงสร้าง 4 Sheet สำหรับ Google Sheet Dashboard (Setup / Raw Data / Calculation / Dashboard)
+• คืน 21:00-23:00: สร้าง Template รายรับ-รายจ่าย Dashboard พร้อม Drop-down Filter และสูตร SUMIFS/FILTER
+
+💡 Quote ประจำวัน
+"Judgment is underrated."
