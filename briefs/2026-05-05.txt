@@ -1,0 +1,16 @@
+🌅 Good Morning! วันอังคาร ที่ 5 พฤษภาคม 2569
+ฉันคือ Johny เลขาส่วนตัวของคุณ 🎯
+
+📅 ตารางวันนี้
+• 05:20 - 🗣️ ฝึกพูด English Speaking (สิ้นสุด 06:00)
+• 06:00 - 🎬 สร้าง Digital Asset (เช้า) (สิ้นสุด 07:30)
+• 08:00 - ไปกรมที่ดิน สมุทรปราการ (สิ้นสุด 12:00)
+• 21:00 - 🎬 สร้าง Digital Asset (คืน) (สิ้นสุด 23:00)
+
+🎬 แผน Digital Asset วันนี้ (จาก Notion)
+Course: Google Sheet Dashboard | Status: Outline
+• เช้า 06:00-07:30: สร้างเนื้อหา EP1 — Foundation (การจัดระเบียบ Raw Data + Defined Names)
+• คืน 21:00-23:00: ออกแบบ Dashboard Layout + เขียนสูตร SUMIFS สำหรับ รายรับ-รายจ่าย Dashboard
+
+💡 Quote ประจำวัน
+"The direction you're heading in matters more than how fast you move."
