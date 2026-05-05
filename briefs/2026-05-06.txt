@@ -1,0 +1,15 @@
+🌅 Good Morning! วันพุธ ที่ 6 พฤษภาคม 2569
+ฉันคือ Johny เลขาส่วนตัวของคุณ 🎯
+
+📅 ตารางวันนี้
+• 05:20 - 🗣️ ฝึกพูด English Speaking (สิ้นสุด 06:00)
+• 06:00 - 🎬 สร้าง Digital Asset (เช้า) (สิ้นสุด 07:30)
+• 07:30 - 💪 ออกกำลังกาย (สิ้นสุด 08:30)
+• 21:00 - 🎬 สร้าง Digital Asset (คืน) (สิ้นสุด 23:00)
+
+🎬 แผน Digital Asset วันนี้ (จาก Notion)
+• เช้า 06:00-07:30: ทบทวน Outline + วางโครงสร้างชีต 4 ชั้น (Setup / Raw Data / Calc / Dashboard) สำหรับ Course EP.1 รายรับ-รายจ่าย
+• คืน 21:00-23:00: ลงมือสร้าง Dashboard จริง — รายรับ-รายจ่าย + Filter พร้อม Drop-down (SUMIFS/FILTER) Deep Work session
+
+💡 Quote ประจำวัน
+"Clear thinker is a better compliment than smart."
