@@ -1,0 +1,21 @@
+Johny Planning - ถึงเวลาแล้วครับ!
+แผนสัปดาห์หน้าพร้อมให้ตรวจ
+
+📅 สัปดาห์ 11–17 พฤษภาคม 2569
+🌾 วันพืชมงคล: พุธ 13 พ.ค. (วันหยุด)
+
+✅ Draft Sessions รอยืนยัน (11 sessions):
+1. จันทร์ 11 พ.ค. 06:00–07:30 Digital Asset Morning
+2. จันทร์ 11 พ.ค. 21:00–23:00 Digital Asset Evening
+3. อังคาร 12 พ.ค. 06:00–07:30 Digital Asset Morning
+4. อังคาร 12 พ.ค. 21:00–23:00 Digital Asset Evening
+5. พุธ 13 พ.ค. 06:00–12:00 Digital Asset วันพืชมงคล (หยุด)
+6. พฤหัส 14 พ.ค. 06:00–07:30 Digital Asset Morning
+7. พฤหัส 14 พ.ค. 21:00–23:00 Digital Asset Evening
+8. ศุกร์ 15 พ.ค. 06:00–07:30 Digital Asset Morning
+9. ศุกร์ 15 พ.ค. 21:00–23:00 Digital Asset Evening
+10. เสาร์ 16 พ.ค. 06:00–12:00 Digital Asset เสาร์
+11. อาทิตย์ 17 พ.ค. 06:00–12:00 Digital Asset อาทิตย์
+
+เปิด Claude: https://claude.ai/recents
+หรือตอบใน Claude ได้เลย
