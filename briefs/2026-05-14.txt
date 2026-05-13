@@ -1,0 +1,16 @@
+🌅 Good Morning! วันพฤหัสบดี ที่ 14 พฤษภาคม 2569
+ฉันคือ Johny เลขาส่วนตัวของคุณ 🎯
+
+📅 ตารางวันนี้
+• 05:20 - 🗣️ ฝึกพูดภาษาอังกฤษ (สิ้นสุด 06:00)
+• 06:00 - 🟦 Digital Asset Morning — พฤหัส (สิ้นสุด 07:30)
+• 07:30 - 🏋️ ออกกำลังกาย (สิ้นสุด 08:30)
+• 21:00 - 🟦 Digital Asset Evening — พฤหัส (สิ้นสุด 23:00)
+
+🎬 แผน Digital Asset วันนี้ (จาก Notion)
+Course Google Sheet Dashboard [Status: Outline]
+• เช้า 06:00-07:30: ทบทวน Outline และเตรียม Raw Data ตัวอย่างสำหรับ Dashboard รายรับ-รายจ่าย
+• คืน 21:00-23:00: ลงมือสร้าง Dashboard รายรับ-รายจ่าย + Filter ด้วย SUMIFS / FILTER / Drop-down (Project 1)
+
+💡 Quote ประจำวัน
+"The greatest superpower is the ability to change yourself."
