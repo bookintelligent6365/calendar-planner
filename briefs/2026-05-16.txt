@@ -1,0 +1,12 @@
+🌅 Good Morning! วันเสาร์ ที่ 16 พฤษภาคม 2569
+ฉันคือ Johny เลขาส่วนตัวของคุณ 🎯
+
+📅 ตารางวันนี้
+• 06:00 - 🟦 Digital Asset — เสาร์ (สิ้นสุด 12:00)
+
+🎬 แผน Digital Asset วันนี้ (จาก Notion)
+• เช้า 06:00-12:00: วางโครงสร้าง UI/Layout และออกแบบ Drop-down สำหรับ Dashboard รายรับ-รายจ่าย (Course Google Sheet Dashboard — สถานะ: Outline)
+• คืน 21:00-23:00: ลงมือ Record บทเรียน Foundation + Logic & Formula พร้อมสร้างไฟล์ตัวอย่าง SUMIFS/FILTER/XLOOKUP
+
+💡 Quote ประจำวัน
+"Every day is a day to build assets."
