@@ -1,0 +1,16 @@
+🌅 Good Morning! วันอังคาร ที่ 19 พฤษภาคม 2569
+ฉันคือ Johny เลขาส่วนตัวของคุณ 🎯
+
+📅 ตารางวันนี้
+• 05:00 - Digital Asset (สิ้นสุด 08:00)
+• 09:00 - Refinance ที่กรมที่ดิน (สิ้นสุด 12:00)
+• 13:00 - Digital Asset (สิ้นสุด 17:00)
+• 18:00 - วิ่งสวนกะแม่ (สิ้นสุด 20:00)
+• 21:00 - Ford (สิ้นสุด 23:00)
+
+🎬 แผน Digital Asset วันนี้ (จาก Notion)
+• เช้า 06:00-07:30: เตรียม Raw Data Template + Setup Sheet สำหรับคอร์ส Google Sheet Dashboard (สถานะ: Outline → เริ่ม Foundation)
+• คืน 21:00-23:00: อัดวิดีโอ Outline คอร์ส + สอนสร้าง Dashboard รายรับ-รายจ่าย พร้อม Filter (Drop-down + SUMIFS)
+
+💡 Quote ประจำวัน
+"Seek wealth, not money or status."
