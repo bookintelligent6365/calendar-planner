@@ -1,0 +1,13 @@
+🌅 Good Morning! วันเสาร์ ที่ 20 มิถุนายน 2569
+ฉันคือ Johny เลขาส่วนตัวของคุณ 🎯
+
+📅 ตารางวันนี้
+• 06:00 - สร้าง Digital Asset (สิ้นสุด 12:00)
+• 21:00 - สร้าง Digital Asset (สิ้นสุด 23:00)
+
+🎬 แผน Digital Asset วันนี้ (จาก Notion)
+• เช้า 06:00-12:00: ออกแบบโครงสร้างชีต Template "รายรับ-รายจ่าย Dashboard + Filter" (Setup → Raw Data → Calculation → Dashboard UI)
+• คืน 21:00-23:00: เขียนสูตร SUMIFS / FILTER / UNIQUE ผูก Drop-down เข้ากับ Dashboard UI ของ Template รายรับ-รายจ่าย
+
+💡 Quote ประจำวัน
+"The direction you're heading in matters more than how fast you move."
