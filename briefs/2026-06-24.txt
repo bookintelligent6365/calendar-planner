@@ -1,0 +1,16 @@
+🌅 Good Morning! วันพุธ ที่ 24 มิถุนายน 2569
+ฉันคือ Johny เลขาส่วนตัวของคุณ 🎯
+
+📅 ตารางวันนี้
+• 05:20 - 🗣️ ฝึกพูดภาษาอังกฤษ + เรียน ic (สิ้นสุด 06:00)
+• 06:00 - 🎨 สร้าง Digital Asset (เช้า) (สิ้นสุด 07:30)
+• 07:30 - 🏃 ออกกำลังกาย (สิ้นสุด 08:30)
+• 19:00 - เรียน IC (สิ้นสุด 20:45)
+• 21:00 - 🎬 สร้าง Digital Asset (คืน) (สิ้นสุด 23:00)
+
+🎬 แผน Digital Asset วันนี้ (จาก Notion)
+• เช้า 06:00-07:30: ทบทวนโครงสร้างชีต (Setup / Raw Data / Calculation / Dashboard) และเตรียม Defined Names สำหรับ Template รายรับ-รายจ่าย Dashboard
+• คืน 21:00-23:00: ลงมือสร้าง Template รายรับ-รายจ่าย Dashboard ด้วยวิธี Drop-down + สูตร (SUMIFS/FILTER) ตาม Course Outline
+
+💡 Quote ประจำวัน
+"Getting rich is not just about luck; happiness is not just a trait we are born with. These are skills we can learn."
